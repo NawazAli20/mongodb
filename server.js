@@ -15,7 +15,7 @@ app.set("view engine","pug");
 app.set("views", "views"); 
 
 //select all students
-app.get("/",async (req,res)=>{
+app.get("/students",async (req,res)=>{
     try{
     const result= await Student.find({});
         res.send(result);
@@ -56,7 +56,7 @@ app.get("/delete/:id",async (req,res)=>{
     }
 });
 
-//update a specific student by id
+//update a specific student by id (get method: not recommended)
 app.get("/update/:id/:name",async (req,res)=>{
     const {id,name} = req.params;
      
@@ -68,7 +68,7 @@ app.get("/update/:id/:name",async (req,res)=>{
     }
 });
 
-//update a specific student by id
+//update a specific student by id (post method, recommeded)
 app.post("/update",async (req,res)=>{
     const {id,name,dept_name, tot_credit} = req.body;
      
