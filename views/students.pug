@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Students Information 
+        link(rel="stylesheet", href="/design.css")
+    body 
+    h1 Students information 
+    table
+        tr 
+            th Name 
+            th Department name 
+            th Total Credit 
+        each student in students 
+            tr 
+                td= student.name
+                td= student.dept_name 
+                td= student.tot_credit
+a(href="/") Home
