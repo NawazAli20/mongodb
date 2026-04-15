@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "69db397ad5c26b0630eac83f"
+  },
+  "name": "Nawaz",
+  "GPA": 3.99
+},
+{
+  "_id": {
+    "$oid": "69dbd76535c6af004084b264"
+  },
+  "name": "Sam",
+  "dept_name": "CS&IS",
+  "gpa": 3.4
+},
+{
+  "_id": {
+    "$oid": "69dbd80a35c6af004084b265"
+  },
+  "name": "Ethan",
+  "dept_name": "CS&IS",
+  "gpa": 3.55
+},
+{
+  "_id": {
+    "$oid": "69dbdaffa7d7a3d2a5287b49"
+  },
+  "name": "Markel",
+  "dept_name": "CS&IS",
+  "gpa": 3
+},
+{
+  "_id": {
+    "$oid": "69dbdbf6a7d7a3d2a5287b4a"
+  },
+  "name": "Sarah",
+  "dept_name": "CS&IS",
+  "gpa": 3.4
+}
+]
