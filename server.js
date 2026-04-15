@@ -18,7 +18,8 @@ app.set("views", "views");
 app.get("/students",async (req,res)=>{
     try{
     const result= await Student.find({});
-        res.send(result);
+        //res.send(result);
+        res.render("students.pug",{students:result});
     }catch(err){
         res.send(err)
     }
