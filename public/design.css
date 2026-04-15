@@ -1,0 +1,16 @@
+h1{
+    background-color: red;
+    color: white;
+}
+
+table,tr,td,th{
+    border: 2px solid blue;
+    padding: 5px;
+}
+th{
+    font-style:italic;
+}
+
+table,tr{
+    border-collapse: collapse;
+}
