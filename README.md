@@ -7,6 +7,9 @@ This repo will work as a starting point of working with mongodb using mongoose p
 after cloning or downloading repo, issue the following command in the project directory: 
 npm install 
 
+# Database 
+Either you can use/create your own collections, or an exampleDB.json file is given here for you to import in your mongdb as a starting database. 
+
 # Run 
 nodemon server.js 
 
